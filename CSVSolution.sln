@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSV", "CSV\CSV.csproj", "{0BEFB2F9-6184-46D6-84C1-888270D518D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZendeskTalkCSVLibrary", "ZendeskTalkCSVLibrary\ZendeskTalkCSVLibrary.csproj", "{C3419604-DCC1-4597-AF21-8686F23AB0AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BEFB2F9-6184-46D6-84C1-888270D518D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEFB2F9-6184-46D6-84C1-888270D518D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEFB2F9-6184-46D6-84C1-888270D518D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEFB2F9-6184-46D6-84C1-888270D518D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3419604-DCC1-4597-AF21-8686F23AB0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3419604-DCC1-4597-AF21-8686F23AB0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3419604-DCC1-4597-AF21-8686F23AB0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3419604-DCC1-4597-AF21-8686F23AB0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1A42030-9447-4A3E-A8EE-52251D04F9DC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+  ViewData["Title"] = "Summary";
+}
+
+<div class="text-center">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Category</th>
+        <th scope="col">Avg Wait Min</th>
+        <th scope="col">Avg Talk Min</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var call in Model.CallSummaries)
+      {
+        <tr>
+          <td>@call.Date</td>
+          <td>@call.Category</td>
+          <td>@call.AvgWaitMin</td>
+          <td>@call.AvgTalkMin</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
